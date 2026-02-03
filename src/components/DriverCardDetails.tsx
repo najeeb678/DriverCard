@@ -89,7 +89,7 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
             <div className="w-full md:w-1/3">
               <div className="mb-4">
                 <p className="text-xs text-label pb-1 my-0">نوع الترخيص/النشاط</p>
-                <p className="text-sm font-bold text-subheading">{data.licenseType}</p>
+                <p className="text-sm font-bold text-subheading max-w-40 md:max-w-full">{data.licenseType}</p>
               </div>
               <div>
                 <p className="text-xs text-label pb-1 my-0">تاريخ الإنتهاء</p>
@@ -121,7 +121,7 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
               </div>
               <div>
                 <p className="text-xs text-label pb-1 my-0">نوع البطاقة</p>
-                <p className="text-sm font-bold text-subheading">{data.cardType}</p>
+                <p className="text-sm font-bold text-subheading max-w-40 md:max-w-full">{data.cardType}</p>
               </div>
             </div>
             <div className="w-full md:w-1/3">
