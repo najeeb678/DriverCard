@@ -60,7 +60,7 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
           <div className="flex flex-wrap gap-4 mb-10">
             <div className="w-full md:w-1/3">
               <p className="text-xs text-label pt-1 mt-3">الاسم</p>
-              <p className="text-sm font-bold text-subheading">{data.companyName}</p>
+              <p className="text-sm font-bold text-subheading max-w-48 md:max-w-full">{data.companyName}</p>
             </div>
             <div className="w-full md:w-1/3">
               <p className="text-xs text-label pt-1 my-0">رقم هوية المنشأة</p>
