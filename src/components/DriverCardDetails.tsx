@@ -42,7 +42,7 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
   onBack = () => console.log("Back button clicked"),
 }) => {
   return (
-    <div dir="rtl" className="mx-5 px-5 py-5">
+    <div dir="rtl" className="mx-5 px-3 md:px-5 py-3 md:py-5">
       {/* Header Section */}
       <header>
         <div className="flex items-center mb-1">
@@ -75,7 +75,7 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
 
           {/* License Information Section */}
           <p className="text-lg font-medium text-heading my-4">معلومات الترخيص الرئيسي</p>
-          <div className="flex flex-nowrap gap-4 mb-4">
+          <div className="flex flex-wrap md:flex-nowrap gap-4 mb-4">
             <div className="w-full md:w-1/3">
               <div className="mb-4">
                 <p className="text-xs text-label pb-1 my-0">رقم الترخيص</p>
@@ -109,7 +109,7 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
 
           {/* Driver Card Section */}
           <p className="text-lg font-medium text-heading my-4">بطاقة السائق</p>
-          <div className="flex flex-nowrap gap-4 mb-0">
+          <div className="flex flex-wrap md:flex-nowrap gap-4 mb-0">
             <div className="w-full md:w-1/3">
               <div className="mb-4">
                 <p className="text-xs text-label pb-1 my-0">رقم البطاقة</p>
