@@ -152,7 +152,7 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
       <div className="flex justify-end gap-2 mt-3">
         <button
           onClick={onBack}
-          className="px-5 py-0.5 border border-btn-primary text-heading rounded hover:bg-blue-50 transition"
+          className="w-[108px] h-[32px] leading-[32px] text-center border border-[#0D6EFD] text-[#0D6EFD] rounded hover:bg-blue-50 transition font-medium text-sm flex items-center justify-center "
           type="button"
         >
           رجوع
