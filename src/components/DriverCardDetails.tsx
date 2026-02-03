@@ -74,7 +74,7 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
           </div>
 
           {/* License Information Section */}
-          <p className="text-lg font-medium text-heading my-4">معلومات الترخيص الرئيسي</p>
+          <p className="text-lg font-medium text-heading mb-4 mt-6">معلومات الترخيص الرئيسي</p>
           <div className="flex flex-wrap md:flex-nowrap gap-4 mb-4">
             <div className="w-full md:w-1/3">
               <div className="mb-4">
@@ -103,12 +103,12 @@ export const DriverCardDetails: React.FC<DriverCardDetailsProps> = ({
           </div>
 
           {/* Divider */}
-          <div className="px-6 py-2">
+          <div className="px-6 py-6">
             <hr className="border-gray-300" />
           </div>
 
           {/* Driver Card Section */}
-          <p className="text-lg font-medium text-heading my-4">بطاقة السائق</p>
+          <p className="text-lg font-medium text-heading mb-4 mt-6">بطاقة السائق</p>
           <div className="flex flex-wrap md:flex-nowrap gap-4 mb-0">
             <div className="w-full md:w-1/3">
               <div className="mb-4">
